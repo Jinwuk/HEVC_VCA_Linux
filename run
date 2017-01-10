@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo "Terminating exsisting SubMaster"
+for p in `ps aux | grep Hevc | grep -v grep | awk '{print $2}'`
+    do kill -9 $p
+done
+
+echo "Starting the first SubMaster"
+cd /home/etri/workspace/HevcEncSubMaster/Release
+
+./HevcEncSubMaster -c 1configure.ini > 1.log 2>&1 &
+
+sleep 1
+
+echo "Starting the Second SubMaster"
+./HevcEncSubMaster -c 2configure.ini > 2.log 2>&1 &
+
+sleep 1
+
+for v in {1..1}
+    do
+    echo "Starting Worker on 172.31.${v}.1"
+    ssh root@172.31.${v}.1 "./run.w"
+done
+
