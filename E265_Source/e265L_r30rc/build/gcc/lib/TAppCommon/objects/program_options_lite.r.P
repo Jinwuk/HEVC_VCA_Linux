@@ -1,0 +1,5 @@
+objects/program_options_lite.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TAppCommon/../../../../source/Lib/TAppCommon/program_options_lite.h :

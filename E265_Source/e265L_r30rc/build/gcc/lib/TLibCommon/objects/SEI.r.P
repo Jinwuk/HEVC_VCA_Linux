@@ -1,0 +1,11 @@
+objects/SEI.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/SEI.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/SEI.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/SEI.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/SEI.h :

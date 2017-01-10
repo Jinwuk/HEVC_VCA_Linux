@@ -1,0 +1,5 @@
+objects/ETRI_HEVC_service.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_service.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_service.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h :

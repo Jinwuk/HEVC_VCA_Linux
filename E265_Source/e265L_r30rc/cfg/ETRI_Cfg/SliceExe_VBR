@@ -1,0 +1,17 @@
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL01.yuv -b $2_SL01_GOP8.bin -wdt 3840 -hgt 384 -fr 60 -f 32 -ip 32 -q $3  > e265_SL01_HeaderVBR_$2_SL01_GOP8.txt
+
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL02.yuv -b $2_SL02_GOP8.bin -wdt 3840 -hgt 384 -fr 60 -f 32 -ip 32 -q $3  > e265_SL02_HeaderVBR_$2_SL02_GOP8.txt
+
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL03.yuv -b $2_SL03_GOP8.bin -wdt 3840 -hgt 384 -fr 60 -f 32 -ip 32 -q $3  > e265_SL03_HeaderVBR_$2_SL03_GOP8.txt
+
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL04.yuv -b $2_SL04_GOP8.bin -wdt 3840 -hgt 384 -fr 60 -f 32 -ip 32 -q $3  > e265_SL04_HeaderVBR_$2_SL04_GOP8.txt
+
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL05.yuv -b $2_SL05_GOP8.bin -wdt 3840 -hgt 384 -fr 60 -f 32 -ip 32 -q $3  > e265_SL05_HeaderVBR_$2_SL05_GOP8.txt
+
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL06.yuv -b $2_SL06_GOP8.bin -wdt 3840 -hgt 240 -fr 60 -f 32 -ip 32 -q $3  > e265_SL06_HeaderVBR_$2_SL06_GOP8.txt
+
+
+
+
+
+

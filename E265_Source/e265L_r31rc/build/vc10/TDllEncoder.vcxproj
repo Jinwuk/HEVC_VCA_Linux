@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B5B036BD-E108-46F1-B333-F7C96EF57835}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TDllEncoder</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\..\bin\vc10\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\vc10\$(Platform)\$(Configuration)\$(RootNamespace)\</IntDir>
+    <TargetName>$(ProjectName)_e265SingleDLLStatic_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\..\bin\vc10\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\vc10\$(Platform)\$(Configuration)\$(RootNamespace)\</IntDir>
+    <TargetName>$(ProjectName)_e265SingleDLL</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TDLLENCODER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TDLLENCODER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\source\Lib\pthreads-w32-2-9-1-release\pthreads.2;$(SolutionDir)\..\source\Lib\;$(SolutionDir)\..\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OutputFile>$(OutDir)\$(ProjectName)_e265SingleDLL.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\source\Lib\pthreads-w32-2-9-1-release\Pre-built.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)\..\source\Lib\pthreads-w32-2-9-1-release\Pre-built.2\lib\x64\pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TDLLENCODER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TDLLENCODER_EXPORTS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\source\Lib\pthreads-w32-2-9-1-release\pthreads.2;$(SolutionDir)\..\source\Lib\;$(SolutionDir)\..\compat\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib;libcpmt.lib</IgnoreSpecificDefaultLibraries>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)\..\source\Lib\pthreads-w32-2-9-1-release\Pre-built.2\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(SolutionDir)\..\source\Lib\pthreads-w32-2-9-1-release\Pre-built.2\lib\x64\pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\App\TAppEncoder\DLLInterfaceType.h" />
+    <ClInclude Include="..\..\source\App\TAppEncoder\TAppEncCfg.h" />
+    <ClInclude Include="..\..\source\App\TAppEncoder\TAppEncTop.h" />
+    <ClInclude Include="..\..\source\App\TAppEncoder\TDllEncoder.h" />
+    <ClInclude Include="..\..\source\Lib\libmd5\libmd5.h" />
+    <ClInclude Include="..\..\source\Lib\libmd5\MD5.h" />
+    <ClInclude Include="..\..\source\Lib\TAppCommon\program_options_lite.h" />
+    <ClInclude Include="..\..\source\Lib\Threadpool\QphotoMutex.h" />
+    <ClInclude Include="..\..\source\Lib\Threadpool\QphotoTask.h" />
+    <ClInclude Include="..\..\source\Lib\Threadpool\QphotoThreadManager.h" />
+    <ClInclude Include="..\..\source\Lib\Threadpool\QphotoThreadPool.h" />
+    <ClInclude Include="..\..\source\Lib\Threadpool\Quram.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\AccessUnit.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\CommonDef.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\ContextModel.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\ContextModel3DBuffer.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\ContextTables.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\ETRI_HEVC_define.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\NAL.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\SEI.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComBitCounter.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComBitStream.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComCABACTables.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComDataCU.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComInterpolationFilter.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComList.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComLoopFilter.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComMotionInfo.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComMv.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComPattern.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComPic.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComPicSym.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComPicYuv.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComPrediction.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComRdCost.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComRdCostWeightPrediction.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComRom.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComSampleAdaptiveOffset.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComSlice.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComThreadPool.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComTrQuant.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComWeightPrediction.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TComYuv.h" />
+    <ClInclude Include="..\..\source\Lib\TLibCommon\TypeDef.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\AnnexBwrite.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\NALwrite.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\SEIwrite.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\SyntaxElementWriter.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncAnalyze.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncBinCoder.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncBinCoderCABAC.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncBinCoderCABACCounter.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncCavlc.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncCfg.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncCu.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncEntropy.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncFrame.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncGOP.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncPic.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncPreanalyzer.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncProcess.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncRateCtrl.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncSampleAdaptiveOffset.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncSbac.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncSearch.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncSlice.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncTile.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncTop.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\TEncWPP.h" />
+    <ClInclude Include="..\..\source\Lib\TLibEncoder\WeightPredAnalysis.h" />
+    <ClInclude Include="..\..\source\Lib\TLibVideoIO\TVideoIOYuv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\App\TAppEncoder\TAppEncCfg.cpp" />
+    <ClCompile Include="..\..\source\App\TAppEncoder\TAppEncTop.cpp" />
+    <ClCompile Include="..\..\source\App\TAppEncoder\TDllEncoder.cpp" />
+    <ClCompile Include="..\..\source\App\utils\convert_NtoMbit_YCbCr.cpp" />
+    <ClCompile Include="..\..\source\Lib\libmd5\libmd5.c" />
+    <ClCompile Include="..\..\source\Lib\TAppCommon\program_options_lite.cpp" />
+    <ClCompile Include="..\..\source\Lib\Threadpool\QphotoMutex.cpp" />
+    <ClCompile Include="..\..\source\Lib\Threadpool\QphotoTask.cpp" />
+    <ClCompile Include="..\..\source\Lib\Threadpool\QphotoThreadManager.cpp" />
+    <ClCompile Include="..\..\source\Lib\Threadpool\QphotoThreadPool.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\ContextModel.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\ContextModel3DBuffer.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\ETRI_HEVC_service.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\SEI.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComBitStream.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComCABACTables.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComDataCU.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComInterpolationFilter.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComLoopFilter.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComMotionInfo.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComPattern.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComPic.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComPicSym.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComPicYuv.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComPicYuvMD5.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComPrediction.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComRdCost.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComRdCostWeightPrediction.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComRom.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComSampleAdaptiveOffset.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComSlice.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComThreadPool.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComTrQuant.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComWeightPrediction.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibCommon\TComYuv.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\NALwrite.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\SEIwrite.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\SyntaxElementWriter.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncAnalyze.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncBinCoderCABAC.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncBinCoderCABACCounter.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncCavlc.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncCu.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncEntropy.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncFrame.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncGOP.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncPic.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncPreanalyzer.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncProcess.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncRateCtrl.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncSampleAdaptiveOffset.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncSbac.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncSearch.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncSlice.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncTile.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncTop.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\TEncWPP.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibEncoder\WeightPredAnalysis.cpp" />
+    <ClCompile Include="..\..\source\Lib\TLibVideoIO\TVideoIOYuv.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

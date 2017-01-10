@@ -1,0 +1,11 @@
+objects/TEncAnalyze.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncAnalyze.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncAnalyze.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncAnalyze.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/TEncAnalyze.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h :

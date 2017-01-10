@@ -1,0 +1,1 @@
+./TAppEncoderStatic -c 4K60p10bS01.cfg -c ETRI_main10_GOP8.cfg -c ETRI_AdditionalTile.cfg -i ../E265_TestSeqs/6Slices/$2_SL01.yuv -b $2_SL01_GOP8.bin -wdt 3840 -hgt 384 -fr 60 -f 32 -ip 32 -q $3  > e265_SL01_HeaderVBR_$2_SL01_GOP8.txt

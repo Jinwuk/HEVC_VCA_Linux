@@ -17,7 +17,7 @@ echo "Starting the Second SubMaster"
 
 sleep 1
 
-for v in {1..1}
+for v in {1..12}
     do
     echo "Starting Worker on 172.31.${v}.1"
     ssh root@172.31.${v}.1 "./run.w"

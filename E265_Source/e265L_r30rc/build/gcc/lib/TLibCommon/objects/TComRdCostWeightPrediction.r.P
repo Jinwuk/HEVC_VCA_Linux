@@ -1,0 +1,23 @@
+objects/TComRdCostWeightPrediction.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComPattern.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComSlice.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComList.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCost.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComPattern.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComMv.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComSlice.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRom.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComList.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibCommon/../../../../source/Lib/TLibCommon/TComRdCostWeightPrediction.h :

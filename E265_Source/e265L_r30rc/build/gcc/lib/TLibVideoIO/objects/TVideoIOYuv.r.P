@@ -1,0 +1,21 @@
+objects/TVideoIOYuv.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComPicYuv.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibVideoIO/TVideoIOYuv.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComPicYuv.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TComRom.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibVideoIO/../../../../source/Lib/TLibCommon/TypeDef.h :

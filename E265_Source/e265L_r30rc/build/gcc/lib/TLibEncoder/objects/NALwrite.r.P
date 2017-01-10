@@ -1,0 +1,17 @@
+objects/NALwrite.r.o: \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.cpp \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/NAL.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.h \
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.cpp :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/NAL.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/CommonDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/ETRI_HEVC_define.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TComBitStream.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibEncoder/NALwrite.h :
+ /home/quram/e265L/e265_r25_MultiplePPS/build/gcc/lib/TLibEncoder/../../../../source/Lib/TLibCommon/TypeDef.h :
